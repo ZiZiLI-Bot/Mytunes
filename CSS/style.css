@@ -8,7 +8,7 @@ html {
     font-family: 'PT Sans', sans-serif;
     box-sizing: border-box;
     color: #fff;
-    background-color: #18191A;
+    background-color: #18191a;
 }
 #music {
     padding-top: 5px;
@@ -18,37 +18,39 @@ html {
     background-color: #fff;
 }
 
-.navbar{
+.navbar {
     position: fixed;
-    width: 100%; height: 40px;
+    width: 100%;
+    height: 40px;
     background-color: #333333;
     display: flex;
 }
 .navbar-iconbar {
-   position: absolute;
-   font-size: 2.8rem;
-   right: 15px;
-   top: 5px;
-   opacity: 0;
+    position: absolute;
+    font-size: 2.8rem;
+    right: 15px;
+    top: 5px;
+    opacity: 0;
 }
-.navbar-list__item{
-    width: 100px; height: 40px;
+.navbar-list__item {
+    width: 100px;
+    height: 40px;
 }
-.navbar-list__item-link{
-    width: 100px; height: 46px;
+.navbar-list__item-link {
+    width: 100px;
+    height: 46px;
     color: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
     text-decoration: none;
     font-size: 1.6rem;
-
 }
-.navbar-list__item:hover{
-   height: calc(100% + 6px);
-   background-color: #444444;
+.navbar-list__item:hover {
+    height: calc(100% + 6px);
+    background-color: #444444;
 }
-.my_tunes__home{
+.my_tunes__home {
     width: 100%;
     height: 100vh;
     display: flex;
@@ -62,35 +64,33 @@ html {
 }
 .my_tunes__home__text {
     width: 85%;
+    margin-bottom: 10%;
 }
 
-.my_tunes__home--title{
-   
+.my_tunes__home--title {
     text-align: center;
     font-size: 6.4rem;
     font-weight: 700;
     line-height: 102.4px;
 }
-.my_tunes__home--caps{
-    
+.my_tunes__home--caps {
     text-align: center;
     font-size: 3.2rem;
     font-weight: 700;
     line-height: 51.2px;
 }
-.my_tunes__home--content{
-
+.my_tunes__home--content {
     text-align: center;
     font-size: 2.1rem;
     font-weight: 400;
     line-height: 33.8px;
 }
-.music__contaier{
+.music__contaier {
     width: 85%;
     padding: 2rem 0;
     margin: 0 auto;
 }
-.music__contaier--text{
+.music__contaier--text {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -103,20 +103,20 @@ html {
     font-size: 4rem;
 }
 
-.music__contaier--title{
+.music__contaier--title {
     text-align: center;
     font-size: 4rem;
     font-weight: 700;
     margin-left: 10px;
     line-height: 5rem;
 }
-.music__contaier--title2{
+.music__contaier--title2 {
     text-align: center;
     font-size: 3.2rem;
     font-weight: 700;
     line-height: 5.1rem;
 }
-.music__contaier--caps{
+.music__contaier--caps {
     text-align: center;
     font-size: 2.2rem;
     font-weight: 400;
@@ -124,7 +124,8 @@ html {
     margin: 0 48px;
 }
 .music__contaier--text button {
-    width: 168px; height: 58px;
+    width: 168px;
+    height: 58px;
     background-color: #d3071b;
     color: #fff;
     margin: 16px 0;
@@ -132,24 +133,24 @@ html {
     border: none;
     cursor: pointer;
 }
-.music__contaier--footer{
+.music__contaier--footer {
     text-align: center;
     margin: 16px 0;
     font-size: 1.6rem;
 }
 
-.video__contaier{
+.video__contaier {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
-    padding: 2rem 0;
+    padding: 5rem 11%;
     margin: 0 auto;
     background-color: #fff;
     /* padding: 64px 20px; */
 }
-.video__text{
+.video__text {
     color: #333339;
     display: flex;
     flex-direction: column;
@@ -164,26 +165,27 @@ html {
     border: none;
     cursor: pointer;
     /* padding: 16px; */
-    width: 105px; height: 58px;
+    width: 105px;
+    height: 58px;
 }
-.video__text--title{
+.video__text--title {
     text-align: center;
     font-size: 3.2rem;
     font-weight: 700;
     line-height: 5.1rem;
     margin: 32px 0;
 }
-.video__text--caps{
+.video__text--caps {
     text-align: center;
     font-size: 2rem;
     line-height: 3.3rem;
     margin: 20.8px 48px;
 }
-.entertainment{
+.entertainment {
     width: 100%;
     background-image: url(../IMG/section-bg.jpeg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
     display: flex;
 }
 .entertainment__text {
@@ -195,20 +197,20 @@ html {
     align-items: center;
     justify-content: center;
 }
-.entertainment__title{
+.entertainment__title {
     text-align: center;
     font-size: 3.2rem;
     font-weight: 700;
     line-height: 5.1rem;
 }
-.entertainment__caps{
+.entertainment__caps {
     text-align: center;
     font-size: 2rem;
     line-height: 3.3rem;
     margin: 20.8px 48px;
 }
 
-.gift__container{
+.gift__container {
     background-color: #fff;
 }
 .gift__container--info {
@@ -216,20 +218,19 @@ html {
     margin: 0px 170px;
     padding: 2rem 0;
 }
-.gift__text{
+.gift__text {
     color: #333353;
-    
 }
 .gift__container--info img {
     margin-left: 20px;
 }
-.gift--title{
+.gift--title {
     font-size: 2.4rem;
     line-height: 500;
     line-height: 3.8rem;
     margin: 20px 0;
 }
-.gift--caps{
+.gift--caps {
     margin: 16px 0;
     font-size: 1.6rem;
     line-height: 25.6px;
@@ -251,22 +252,23 @@ html {
     color: #333333;
     padding-left: 5px;
 }
-.footer{
+.footer {
     background-color: #252529;
-    height: 298px; width: 100%;
+    height: 298px;
+    width: 100%;
 }
-.footer__contaier{
+.footer__contaier {
     height: 100%;
-    margin: 0 232px;
+    margin: 0px 16.5%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.footer__contaier__box{
+.footer__contaier__box {
     width: 223px;
     margin-left: 20px;
 }
-.footer__title{
+.footer__title {
     font-size: 1.8rem;
     padding-bottom: 15px;
     border-bottom: 1px solid rgba(153, 153, 153, 0.568);
@@ -275,14 +277,14 @@ html {
     padding: 0;
     padding-top: 15px;
 }
-.footer__content{
+.footer__content {
     list-style: none;
     font-size: 1.5rem;
     line-height: 2.4rem;
     cursor: pointer;
     color: #cccccc;
 }
-.footer__copyright{
+.footer__copyright {
     width: 100%;
     height: 60px;
     display: flex;
@@ -290,6 +292,6 @@ html {
     justify-content: center;
     background-color: #333333;
 }
-.copyright{
+.copyright {
     font-size: 1.6rem;
 }
